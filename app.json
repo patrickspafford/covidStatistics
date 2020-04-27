@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "COVID-19 Statistics",
+    "slug": "covidStats",
+    "ios": {
+      "bundleIdentifier": "com.patrickspafford.covidStatistics",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/covidSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0C2340"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": ""
+  }
+}

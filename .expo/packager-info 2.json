@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 7214,
+  "expoServerNgrokUrl": "https://em-4ug.anonymous.covidapp.exp.direct",
+  "packagerNgrokUrl": "https://packager.em-4ug.anonymous.covidapp.exp.direct",
+  "ngrokPid": 7239,
+  "webpackServerPort": 19006
+}

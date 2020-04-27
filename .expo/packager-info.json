@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 1317,
+  "expoServerNgrokUrl": "https://5t-rc9.patrickspafford.covidapp.exp.direct",
+  "packagerNgrokUrl": "https://packager.5t-rc9.patrickspafford.covidapp.exp.direct",
+  "ngrokPid": 1346,
+  "webpackServerPort": null
+}
