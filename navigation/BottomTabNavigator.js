@@ -1,24 +1,19 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import * as React from 'react';
-
 import TabBarIcon from '../components/TabBarIcon';
-import dailyStats from '../screens/dailyStats';
-import LinksScreen from '../screens/LinksScreen';
+import stateStats from '../screens/stateStats';
+import cumulativeStats from '../screens/cumulativeStats';
 
 const BottomTab = createBottomTabNavigator();
 const INITIAL_ROUTE_NAME = 'State Statistics';
 
 export default function BottomTabNavigator({ navigation, route }) {
-  // Set the header title on the parent stack navigator depending on the
-  // currently active tab. Learn more in the documentation:
-  // https://reactnavigation.org/docs/en/screen-options-resolution.html
   navigation.setOptions({ headerTitle: getHeaderTitle(route) });
-
   return (
     <BottomTab.Navigator initialRouteName={INITIAL_ROUTE_NAME}>
       <BottomTab.Screen
         name="State Statistics"
-        component={dailyStats}
+        component={stateStats}
         options={{
           title: 'State Statistics',
           tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="ios-stats" />,
@@ -26,7 +21,7 @@ export default function BottomTabNavigator({ navigation, route }) {
       />
       <BottomTab.Screen
         name="Aggregate Statistics"
-        component={LinksScreen}
+        component={cumulativeStats}
         options={{
           title: 'Aggregate Statistics',
           tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="ios-trending-up" />,

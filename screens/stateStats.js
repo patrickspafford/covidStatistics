@@ -59,7 +59,7 @@ function OptionButton({ icon, label }) {
     );
   }
 
-export default function dailyStats() {
+export default function stateStats() {
     const [states, setStates] = React.useState([])
     const [cases, setCases] = React.useState([])
     const [tested, setTested] = React.useState([])
